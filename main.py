@@ -12,8 +12,8 @@ model_openai = ChatGroq(model="llama-3.1-8b-instant")
 
 model_google = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
-m1="who is the president of the united states?"
-m2="what is his age"
+m1="who is the priminister of India?"
+m2="what is his age?"
 
 response_openai = model_openai.invoke(m1)
 response_google = model_google.invoke(m1)
